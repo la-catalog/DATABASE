@@ -16,3 +16,9 @@ Precisavamos documentar as estruturas dos bancos de dados porém na organizaçã
 - Centralizar documentações de bancos em um repositório?
   - ✔️ Após dar pin do repositório na organização, se torna um repositório de fácil acesso para documentação
   - ✔️ Fácil de referênciar este repositório em outros README.md
+
+## guideline
+
+- Não documente detalhes
+  - Normalmente os campos da tabela/collection/index são baseados em estruturas vindas de códigos e estes códigos possuem documentações por sua parte
+  - Muito campos podem mudar, o que pode tornar trabalhoso atualizar documentação do código + documentação do banco de dados
