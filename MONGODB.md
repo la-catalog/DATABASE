@@ -5,6 +5,10 @@ Cada marketplace possue seu próprio banco de dados, por isso subsitua "\<market
 
 ```mermaid
 classDiagram
+  class searchs{
+    query
+  }
+  
   class urls{
     url
   }
@@ -24,19 +28,19 @@ classDiagram
     hash
   }
   
-  class searchs{
-    query
-  }
-  
   skus "1" --> "1" historics : code
   skus "1" --> "1" snapshots : hash
   skus "1" --> "*" skus : relatives
   historics "1" --> "*" snapshots : hash
 ```
 
-### search
+### searchs
 Collection com queries a serem executadas no marketplace de tempos em tempos. A idéia é buscar no marketplace por termos genéricos que pode trazer produtos diferentes com o tempo, ou seja, **não** são queries para produtos específicos.  
 
-### sku
+### urls
 
-### image
+### skus
+
+### historics
+
+### snapshots
