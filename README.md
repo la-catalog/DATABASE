@@ -4,9 +4,13 @@
     <img src="https://github.com/la-catalog/database/raw/main/res/black.png">
   </picture>
 </div>
-Explicações de databases/tables/collections/indexes utilizados na organização.  
 
 ## context
-Precisamos documentar as estruturas dos bancos de dados porém na organização nós temos a regra de deixar a documentação próxima do assunto a qual ela se trata... Infelizmente está regra é inviável de se seguir quando falamos de bancos que podem ser utilizado por N repositórios (não vamos duplicar documentação e não vamos escolher um deles para conter a documentação).  
+Precisavamos documentar as estruturas dos bancos de dados porém na organização nós temos a regra de deixar a documentação próxima do assunto a qual ela se trata... Infelizmente está regra é inviável de se seguir quando falamos de bancos que podem ser utilizado por N repositórios.  
 
-Por isso este repositório foi criado, ele centraliza todas informações sobre tables/collections/indexes/databases em um local e pode ser usada como referência para outros repositórios que utilizam o banco.  
+- Duplicar documentação em todos repositórios que utilizam aquele banco/tabela/collection/index?
+  - ❌ Inviável atualizar N repositórios para qualquer mudança nas estruturas.
+- Escolher um repositório principal para conter a documentação de determinado banco/tabela/collection/index?
+  - ❌ Os membros da organização teriam que descobrir em qual repositório está a documentação e depois lembrar.
+- Centralizar documentações de bancos em um repositório?
+  - ✔️ Após dar pin do repositório na organização, se torna um repositório de fácil acesso para documentação.
