@@ -6,15 +6,18 @@ Cada marketplace possue seu próprio banco de dados, por isso subsitua "\<market
 ```mermaid
 classDiagram
   class urls{
+    url
   }
   
   class skus{
     code
     metadata.hash
+    metadata.relatives
   }
 
   class historics{
     code
+    list~hash~ historic
   }
 
   class snapshots{
@@ -24,6 +27,11 @@ classDiagram
   class searchs{
     query
   }
+  
+  skus "1" --> "1" historics : code
+  skus "1" --> "1" snapshots : hash
+  skus "1" --> "*" skus : relatives
+  historics "1" --> "*" snapshots : hash
 ```
 
 ### search
