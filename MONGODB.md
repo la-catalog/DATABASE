@@ -1,7 +1,7 @@
 # mongodb
 
 ## \<marketplace>
-Cada marketplace possue seu próprio banco de dados, por isso subsitua "\<marketplace>" pelo nome daquele marketplace em [snake_case](https://en.wikipedia.org/wiki/Snake_case). Se tivessemos falando da [Ri Happy](https://www.rihappy.com.br/), o nome do banco seria "ri_happy".  
+Cada marketplace possue seu próprio banco de dados, por isso substitua "\<marketplace>" pelo nome daquele marketplace em [snake_case](https://en.wikipedia.org/wiki/Snake_case). Se tivessemos falando da [Ri Happy](https://www.rihappy.com.br/), o nome do banco seria "ri_happy".  
 
 ```mermaid
 classDiagram
