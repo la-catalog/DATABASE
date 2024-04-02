@@ -1,8 +1,5 @@
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github.com/la-catalog/database/raw/main/res/white.png">
-    <img src="https://github.com/la-catalog/database/raw/main/res/black.png">
-  </picture>
+  <img src="./res/image.svg">
 </div>
 
 ## context
